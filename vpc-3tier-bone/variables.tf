@@ -15,3 +15,10 @@ variable "app_version" {
     type = string
     default = "v1.0"
 }
+
+locals {
+    environment = var.environment
+    app_version = var.app_version
+
+    name = "${var.environment}-${var.app_version}"
+}

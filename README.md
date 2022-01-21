@@ -17,5 +17,5 @@ terraform plan # To verify what you are going to provision.
 
 terraform apply --auto-approve # Actual provisioning comand.
 
-terraform destroy --ato-approve # Cleaning resources.
+terraform destroy --auto-approve # Cleaning resources.
 ```
